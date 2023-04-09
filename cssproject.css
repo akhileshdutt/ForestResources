@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(sport.jpg) no-repeat;
+	background-size: cover;
+	height: 120vh;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+	width: 140px;
+	height: auto;
+	padding: 20px 80px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(255, 255, 255);
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: rgb(18, 60, 19);
+	border-radius: 2px;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h2{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center h3{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	width: 885px;
+	text-align: center;
+}
+.Club{
+	font-family: 'Roboto', sans-serif;
+	background-color: rgba(202, 202, 202, 0.134);
+	float: left;
+	border-style: solid;
+	height: 380px;
+	width: 300px;
+	border-radius: 50px;
+	margin-top: 200px;
+}
+.buttons{
+	margin: 50px;
+}
+.buttons button{
+	height: 40px;
+	width: 200px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	background: black;
+	font-style: italic;
+	outline: none;
+	border-color: #050505;
+	border-radius: 50px;
+	margin-top: 2px;
+}
+.buttons button:hover{
+	background: rgb(18, 60, 19);
+}
+h1{
+	font-size: 28px;
+	color: aliceblue;
+}
